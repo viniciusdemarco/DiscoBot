@@ -9,7 +9,6 @@
 body {
     font-size: 100%;
     background: linear-gradient(68.15deg,  #1A93CC 16.62%, #105C7F  85.61%);
-
 }
 
 
@@ -119,7 +118,6 @@ body {
 
 .rodape{
     display: flex;
-
     padding: 32px;
     border-top: 0.4px solid white;
 }
@@ -137,6 +135,35 @@ body {
     align-self: flex-end;
 }
 
-ol.lista-comandos{
-    
+.conteudo-comando{
+    border-top: 0.4px solid white;
+    margin-bottom: 48px;
+}
+
+.lista-comando-titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+    margin: 30px;
+}
+.lista-comando{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.lista-comando-principal{
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.lista-comando-itens{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
 }

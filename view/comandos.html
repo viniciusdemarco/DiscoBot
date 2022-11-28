@@ -6,43 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comandos</title>
     <link rel="shortcut icon" href="/image/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header class="cabecalho">
-        <img class="cabecalho-img" src="/image/logodiscobot.svg">
+        <img class="cabecalho-img" src="../image/logodiscobot.svg">
         <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item" href="/index.html">Início</a>
+            <a class="cabecalho-menu-item" href="../index.html">Início</a>
             <a class="cabecalho-menu-item">Comunidade DiscoBot</a>
             <a class="cabecalho-menu-item">Tutorial</a>
             <a class="cabecalho-menu-item">Open Source</a>
             <a class="cabecalho-menu-item" href="comandos.html">Comandos</a>
         </nav>
     </header>
-    <main class="conteudo">
+    <main class="conteudo-comando">
         <section>
-            <h1>Comandos</h1>
-            <ol class="lista-comandos" start="1">
-                <li>Adicionar
-                    <ul class="lista-secundaria">
+            <h1 class="lista-comando-titulo">Comandos</h1>
+            <ol class="lista-comando" type="I">
+                <li class="lista-comando-principal">Adicionar
+                    <ul class="lista-comando-itens">
                         <li><i>/addmember</i> - Adicionar um membro.</li>
                         <li><i>/addbot</i> - Adicionar um bot.</li>
                         <li><i>/addrole</i> - Adicionar um cargo.</li>
+                        <li><i>/addrule</i> - Adicionar um regra.</li>
                     </ul>
                 </li>
-                <li> Remover
-                    <ul class="lista-secundaria">
+                <li class="lista-comando-principal"> Remover
+                    <ul class="lista-comando-itens">
                         <li><i>/removemember</i> - Remover um membro.</li>
                         <li><i>/removebot</i> - Remover um bot.</li>
                         <li><i>/removerole</i> - Remover um cargo.</li>
+                        <li><i>/removerule</i> - Remover um regra.</li>
                     </ul>
                 </li>
-                
+                <li class="lista-comando-principal"> Música
+                    <ul class="lista-comando-itens">
+                        <li><i>/play [musica]</i> - Tocar uma música.</li>
+                        <li><i>/stop</i> - Parar de tocar músicas..</li>
+                        <li><i>/pause</i> - Pausar a música que está tocando.</li>
+                        <li><i>/unpause</i> - Voltar tocar a música.</li>
+                        <li><i>/connect [nome do canal de voz]</i> - Faça o bot entrar no canal de voz.</li>
+                        <li><i>/disconnect</i> - Faça o bot sair do canal de voz.</li>
+                        <li><i>/back</i> - Tocar música anterior.</li>
+                        <li><i>/skip</i> - Pular para próxima música.</li>
+                        <li><i>/skip[number]</i> - Pular [x] músicas.</li>
+                        <li><i>/playlist</i> - Tocar playlist completa.</li>
+                    </ul>
+                </li>
+                <li class="lista-comando-principal"> Outros coomandos
+                    <ul class="lista-comando-itens">
+                        <li><i>/help</i> - Mostrar todos os comandos.</li>
+                    </ul>
+                </li>
             </ol>
         </section>        
     </main>
     <footer class="rodape">
-        <img class="rodape-img" src="/image/logorodape.svg">
+        <img class="rodape-img" src="../image/logorodape.svg">
         <p class="rodape-paragrafo">© Copyright 2022-2022 DiscoBot - Melhorando sua comunidade do Discord.</p>
     </footer>
 </body>
